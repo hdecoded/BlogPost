@@ -38,6 +38,9 @@ p {
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .container {
@@ -50,6 +53,7 @@ p {
     width: 75%;
 /*    background-color: blue;*/
     padding-right: 30px;
+    position: relative;
 }
 
 .other-posts {
@@ -62,4 +66,27 @@ p {
     border-top: 1px solid #808080;
     padding-top: 20px; 
 /*    background-color: yellow;*/
+}
+
+.other {
+    margin-bottom: 40px;s
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: auto;
+    width: 100%;
+    
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
